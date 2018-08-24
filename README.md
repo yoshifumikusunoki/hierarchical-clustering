@@ -17,7 +17,7 @@ We have 3 linkage methods.
 * complete_linkage
 * average_linkage
 
-Next, we obtain a PGF/TikZ file of the dendrogram from the cophenetic matrix (`a_dir/cophenetic`).
+Next, we obtain a PGF/TikZ script of the dendrogram from the cophenetic matrix (`a_dir/cophenetic`).
 ```
 ruby coph_to_tikz.rb -c a_dir/cophenetic 
 ```
