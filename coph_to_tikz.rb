@@ -50,7 +50,7 @@ def gen_tree(submat,ind,pos,max_level,num_node,par_count,count,output)
   maxv = submat.flatten.uniq.sort[-1]
 
   if m == 1
-    output.print("\\node (n#{count}) at (#{pos*1.4},#{-1}) [dendro_label] {#{ind[0]}};\n")
+    output.print("\\node (n#{count}) at (#{pos*1.4},#{-1}) [dendro_label] {#{ind[0]+1}};\n")
     output.print("\\draw [dendro_line] (n#{count}) |- (n#{par_count}.center);\n")
     return count;
   else
