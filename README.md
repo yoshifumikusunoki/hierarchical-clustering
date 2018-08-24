@@ -25,17 +25,17 @@ A default output is `dendro_tikz`.
 Copy the output in a figure environment of an LaTeX file.
 We need `\usepackage{tikz}` in the preamble of the LaTeX file.
 
-For `zoo.data`, we set
+For `iris.data`, we set
 ```
 <attribute file> := datasets/iris.attr
 <data file> := datasets/iris.data
-<ignored attributes> := id,type
+<ignored attributes> := class
 ```
 
 # Example
 Run, the following.
 ```
-ruby clustering.rb  -a datasets/zoo.attr -i datasets/zoo.data -l average_linkage -g id,type
+ruby clustering.rb  -a datasets/iris.attr -i datasets/iris.data -l average_linkage -g class
 ruby coph_to_tikz.rb -c a_dir/cophenetic
 ```
 We obtain a dendrogram.
