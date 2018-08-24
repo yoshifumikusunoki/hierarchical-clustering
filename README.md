@@ -39,3 +39,5 @@ ruby clustering.rb  -a datasets/zoo.attr -i datasets/zoo.data -l average_linkage
 ruby coph_to_tikz.rb -c a_dir/cophenetic
 ```
 We obtain a dendrogram.
+
+<img src="tikzset_dendro_l.png" width="640">
