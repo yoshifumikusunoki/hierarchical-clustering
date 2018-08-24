@@ -40,4 +40,4 @@ ruby coph_to_tikz.rb -c a_dir/cophenetic
 ```
 We obtain a dendrogram.
 
-<img src="tikzset_dendro_l.png" width="640">
+<img src="dendro.png" width="640">
